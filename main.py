@@ -1,5 +1,4 @@
 import sys
-import signal
 
 import myconfig
 
