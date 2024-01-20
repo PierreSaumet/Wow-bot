@@ -4,6 +4,8 @@ import time
 
 from pynput import mouse, keyboard
 
+from myconfig import STOP_RECORD_MSG, RECORD_DESCRIPTION_MSG
+
 mouse_start_times = {}
 keyboard_cmd = {}
 
@@ -61,13 +63,13 @@ def key_release(key):
         keyboard_cmd.clear()
 
 def start_record():
-    description = input("Write a small description and press enter to start: ")
+    description = input(f"{RECORD_DESCRIPTION_MSG}")
     all_commands.append({"description": description} 
                                                )
     mouse_listener = mouse.Listener(on_click=record_mouse)
     keyboard_listener = keyboard.Listener(on_press=key_press, on_release=key_release)
 
-    print("To stop recording press ctrl-c\n")
+    print(f"{STOP_RECORD_MSG}")
     try:
         mouse_listener.start()
         keyboard_listener.start()

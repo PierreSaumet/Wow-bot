@@ -2,7 +2,8 @@ import sys
 
 import myconfig
 
-from test.record import start_record
+from record.record import start_record
+from record.play import start_play
 
 def ft_quit():
     res = input("\n\nCtrl-c was pressed, Do you want to exit? y/n\n")
@@ -22,7 +23,7 @@ def main():
             elif user_choice == "1":
                 start_record()
             elif user_choice == "2":
-                pass
+                start_play()
         except KeyboardInterrupt:
             ft_quit()
 
