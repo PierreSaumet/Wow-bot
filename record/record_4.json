@@ -1,0 +1,143 @@
+[
+  {
+    "description": "Kill"
+  },
+  {
+    "Mouse": {
+      "action": "left",
+      "total": 0.16,
+      "pos_x": 658,
+      "pos_y": 622
+    }
+  },
+  {
+    "Key.tab": {
+      "start": 1705778563.9837568,
+      "end": 1705778564.1246638,
+      "total": 0.14
+    }
+  },
+  {
+    "e": {
+      "start": 1705778564.411969,
+      "end": 1705778564.533803,
+      "total": 0.12
+    }
+  },
+  {
+    "a": {
+      "start": 1705778565.231573,
+      "end": 1705778565.3749795,
+      "total": 0.14
+    }
+  },
+  {
+    "r": {
+      "start": 1705778565.9535525,
+      "end": 1705778566.0582876,
+      "total": 0.1
+    }
+  },
+  {
+    "r": {
+      "start": 1705778567.6410081,
+      "end": 1705778567.7539306,
+      "total": 0.11
+    }
+  },
+  {
+    "r": {
+      "start": 1705778569.710025,
+      "end": 1705778569.799836,
+      "total": 0.09
+    }
+  },
+  {
+    "Mouse": {
+      "action": "right",
+      "total": 0.13,
+      "pos_x": 904,
+      "pos_y": 524
+    }
+  },
+  {
+    "Mouse": {
+      "action": "right",
+      "total": 0.14,
+      "pos_x": 957,
+      "pos_y": 522
+    }
+  },
+  {
+    "Mouse": {
+      "action": "right",
+      "total": 0.13,
+      "pos_x": 999,
+      "pos_y": 522
+    }
+  },
+  {
+    "Mouse": {
+      "action": "right",
+      "total": 0.14,
+      "pos_x": 1003,
+      "pos_y": 554
+    }
+  },
+  {
+    "Mouse": {
+      "action": "right",
+      "total": 0.18,
+      "pos_x": 961,
+      "pos_y": 555
+    }
+  },
+  {
+    "Mouse": {
+      "action": "right",
+      "total": 0.14,
+      "pos_x": 922,
+      "pos_y": 546
+    }
+  },
+  {
+    "Mouse": {
+      "action": "right",
+      "total": 0.1,
+      "pos_x": 902,
+      "pos_y": 572
+    }
+  },
+  {
+    "Mouse": {
+      "action": "right",
+      "total": 0.13,
+      "pos_x": 945,
+      "pos_y": 589
+    }
+  },
+  {
+    "Mouse": {
+      "action": "right",
+      "total": 0.14,
+      "pos_x": 987,
+      "pos_y": 589
+    }
+  },
+  {
+    "Mouse": {
+      "action": "right",
+      "total": 0.14,
+      "pos_x": 989,
+      "pos_y": 585
+    }
+  },
+  {
+    "Mouse": {
+      "action": "left",
+      "total": 0.11,
+      "pos_x": -305,
+      "pos_y": 338
+    }
+  }
+]

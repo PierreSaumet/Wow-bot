@@ -14,8 +14,8 @@ all_commands = []
 
 def get_next_val():
     tmp_lst = []
-    for f in os.listdir('.'):
-        if os.path.isfile(f) and f.startswith("record_") and f.endswith(".json"):          
+    for f in os.listdir('./record/'):
+        if os.path.isfile("./record/" + f) and f.startswith("record_") and f.endswith(".json"):          
             tmp_lst.append(int(f[7: len(f) - 5]))
 
     if len(tmp_lst) == 0:
@@ -25,7 +25,7 @@ def get_next_val():
 def save_record_to_json():
     json_data = json.dumps(all_commands, indent=2)
 
-    with open("record_" + get_next_val() + ".json", "w") as json_file:
+    with open("./record/record_" + get_next_val() + ".json", "w") as json_file:
         json_file.write(json_data)
 
 def record_mouse(x, y, button, pressed):
@@ -73,13 +73,14 @@ def start_record():
     try:
         mouse_listener.start()
         keyboard_listener.start()
-        mouse_listener.join()
-        keyboard_listener.join()
+        #mouse_listener.join()
+        #keyboard_listener.join()
+        while True:
+            print("Recording...\n")
+            time.sleep(1)
     except KeyboardInterrupt:
         print("\nRecording interrupted by user (Ctrl-C).")
         mouse_listener.stop()
         keyboard_listener.stop()
 
-if __name__ == '__main__':
-    start_record()
     save_record_to_json()
