@@ -146,9 +146,9 @@ print("Coordinates of different pixels:", coordinates)
 
 for coord in coordinates:
     #print("dessine : ", coord)
-    cv2.circle(img2, tuple(coord[::-1]), 1, (0, 0, 255), -1)
+    cv2.circle(img2, tuple(coord[::-1]), 2, (0, 0, 255), -1)
 
-#cv2.imshow("difference", diff)
+cv2.imshow("difference", diff)
 cv2.imshow("Image with Red Points", img2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()

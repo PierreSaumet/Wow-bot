@@ -32,9 +32,7 @@ def main():
         count_down()
         take_screenshot(picture2)
 
-
 if __name__ == "__main__":
-    
     window_title = "World of Warcraft"
     screenWidth, screenHeight = pyautogui.size()
     main()
